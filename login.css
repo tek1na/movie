@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Crushed&family=Exo+2:wght@300&family=Michroma&family=Oswald:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Exo 2';
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:  #ffffff;
+}
+
+.profiles 
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+.profile img 
+{
+    border: 2px solid  #4d00c0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.profile h2
+{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+    
+.profile img:hover
+{
+    border: 3px solid  #ffffff;
+    transform: translateY(-10px);
+}
+.manage
+{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid  #4d00c0;
+    color:  #ffffff;
+    margin: 30px;
+    padding: 20px;
+}
+.manage:hover
+{
+    border: 2px solid  #fff;
+}

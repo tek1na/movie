@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Визначає тип документа як HTML і встановлює мову англійську -->
+  <meta charset="utf-8">
+  <title>MovieBuddy || Homepage || English</title>
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+
+<body>
+    <nav class="navbar">  <!-- Елемент навігаційної панелі -->
+        <div class="navbar-container">
+            <div class="logo-container">
+                <img class="logo" src="img/Frame 1.png">
+            </div>
+            <div class="menu-container">
+                
+            </div>
+            <div class="profile-container">
+                <a href="login.html"><img class="profile-picture" src="img/Max.jpg"></a>
+                <div class="profile-text-container">
+                    <a href="#" class="profile-text-active">ENG</a>
+                    <a href="homepage ua.html" class="profile-text-nonactive">UA</a>
+                </div>
+                <div class="toggle"> <!-- Перемикач темного режиму -->
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar"> <!-- Бічна панель -->
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <a href="list.html"><i class="left-menu-icon fas fa-shopping-cart"></i></a>
+    </div>
+    <main class="container"> <!-- Основний контейнер для вмісту сторінки -->
+        <div class="content-container">
+            
+            <div class="video-wrapper"> <!-- Контейнер для відео -->
+                <video playsinline autoplay muted loop ="img/poster1.jpg">
+                  <source src="trailer.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              
+                <div class="featured-content">
+                    <img class="featured-title" src="img/poster.jpg">
+                    <p class="featured-desc">Having all the time in the world to iron out the details of her ambitious next project, charismatic con artist Debbie Ocean, Danny Ocean's younger sister, contacts her former accomplice Lou to lend her a hand. And after serving a five-year stint in jail, Debbie picks up where she left off and assembles an all-female dream team of experts to pull off her $150-million magnum opus: steal Cartier's radiant Toussaint diamond necklace adorning the swanlike neck of the renowned actress, Daphne Kluger.</p>
+                    <button class="featured-button">WATCH <i class="fa fa-play"></i></button>
+                </div>
+              </div>
+            <div class="movie-list-container">
+                <h2 class="movie-list-title">Top Picks For You</h2>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/notting.jpg">
+                            <span class="movie-list-item-title">Notting Hill</span>
+                            <p class="movie-list-item-desc">The story is of a romance between a British bookseller and a famous American actress who happens to walk into his shop in London's Notting Hill district</p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13to30.jpg" alt="">
+                            <span class="movie-list-item-title">13 Going On 30</span>
+                            <p class="movie-list-item-desc">In this feel-good fairy tale, teenager Jenna wants a boyfriend, and when she's unable to find one, she fantasizes about being a well-adjusted adult. </p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/bride.jpg" alt="">
+                            <span class="movie-list-item-title">Bride Wars</span>
+                            <p class="movie-list-item-desc">In the film, two childhood best friends, who have made many plans together for their respective weddings, turn into sworn enemies in a race to get married before the other. </p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/htlagi10d.jpg" alt="">
+                            <span class="movie-list-item-title">How To Lose A Guy In 10 Days</span>
+                            <p class="movie-list-item-desc">A ladies man bet his friends that he can get a woman to fall in love with him in 10 days,the woman he's dating is actually a magazine columnist working on a new column called "How to Lose a Guy in 10 Days".</p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/openh.jpg" alt="">
+                            <span class="movie-list-item-title">Oppenhaimer</span>
+                            <p class="movie-list-item-desc">During the Manhattan Project, Oppenheimer was director of the Los Alamos Laboratory and responsible for the research and design of an atomic bomb. </p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="p_disneymovies_avatarthewayofwater_streamingupdate_2096_0908fa1b.jpeg" alt="">
+                            <span class="movie-list-item-title">Avatar</span>
+                            <p class="movie-list-item-desc">Paraplegic Marine Jake Sully is sent to Pandora to replace his deceased identical twin, who had signed up to be an operator.</p>
+                            <button class="movie-list-item-button">MORE</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+            <div class="movie-list-container">
+                <h2 class="movie-list-title">Recently Watched</h2>
+            <div class="table">
+                <section class="table_header">
+                    <div class="input-group">
+                        <input type="search" placeholder="SEARCH..."><i class="fa fa-search"></i>
+                    </div>
+                </section>
+               <section class="table_body"> <!-- Секція тіла таблиці -->
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th> Id </th>
+                                            <th> Name </th>
+                                            <th> Poster </th>
+                                            <th> When </th>
+                                            <th> Status </th>
+                                            <th> Rate </th>
+                                            <th> Metascore </th>
+                                            <th> Duration </th>
+                                            <th> Year </th>
+                                            <th> Votes </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> 1 </td>
+                                            <td> Nowhere</td>
+                                            <td> <img src="Unknown.jpeg"> </td>
+                                            <td> 17 Dec, 2022 </td>
+                                            <td>
+                                                <p class="status finished">Finished</p>
+                                            </td>
+                                            <td> 6/10 </td>
+                                            <td> 51 </td>
+                                            <td> 1h 49</td>
+                                            <td> 2023 </td>
+                                            <td> 104 843</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 2 </td>
+                                            <td> La La Land </td>
+                                            <td> <img src="img/land.jpg"> </td>
+                                            <td> 19 Dec, 2022 </td>
+                                            <td>
+                                                <p class="status pending ">23 min left</p>
+                                            </td>
+                                            <td> - </td>
+                                            <td> 72 </td>
+                                            <td> 2h 8</td>
+                                            <td> 2016 </td>
+                                            <td> 67 876</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 3 </td>
+                                            <td>Bird Box</td>
+                                            <td> <img src="Unknown-1.jpeg"> </td>
+                                            <td> 23 Jan, 2023 </td>
+                                            <td>
+                                                <p class="status finished">Finished</p>
+                                            </td>
+                                            <td> 9/10 </td>
+                                            <td> 81 </td>
+                                            <td> 2h 4</td>
+                                            <td> 2018 </td>
+                                            <td> 192 390</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 4 </td>
+                                            <td>Oppenhaimer</td>
+                                            <td> <img src="img/openh.jpg"> </td>
+                                            <td> 3 Feb, 2023 </td>
+                                            <td>
+                                                <p class="status finished">Finished</p>
+                                            </td>
+                                            <td> 10/10 </td>
+                                            <td> 88 </td>
+                                            <td> 3h 15</td>
+                                            <td> 2023 </td>
+                                            <td> 99 832</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 5 </td>
+                                            <td>Mean Girls</td>
+                                            <td> <img src="img/mean.jpg"> </td>
+                                            <td> 13 Feb, 2023 </td>
+                                            <td>
+                                                <p class="status pending ">11 min left</p>
+                                            </td>
+                                            <td> - </td>
+                                            <td> 76 </td>
+                                            <td>1h 37</td>
+                                            <td> 2004 </td>
+                                            <td> 228 281</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 6 </td>
+                                            <td>Pretty Woman</td>
+                                            <td> <img src="img/pretty.jpg"> </td>
+                                            <td> 21 Feb, 2023 </td>
+                                            <td>
+                                                <p class="status pending ">46 min left</p>
+                                            </td>
+                                            <td> - </td>
+                                            <td> 90 </td>
+                                            <td> 1h 59</td>
+                                            <td> 1990 </td>
+                                            <td> 133 229</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 7 </td>
+                                            <td>Bride Wars</td>
+                                            <td> <img src="img/bride.jpg"> </td>
+                                            <td> 1 May, 2023 </td>
+                                            <td>
+                                                <p class="status finished">Finished</p>
+                                            </td>
+                                            <td> 8/10 </td>
+                                            <td> 89 </td>
+                                            <td> 1h 29</td>
+                                            <td> 2009 </td>
+                                            <td> 201 001</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 8 </td>
+                                            <td>13 Going On 30</td>
+                                            <td> <img src="img/13to30.jpg"> </td>
+                                            <td> 7 May, 2023 </td>
+                                            <td>
+                                                <p class="status finished">Finished</p>
+                                            </td>
+                                            <td> 10/10 </td>
+                                            <td> 91 </td>
+                                            <td> 1h 38</td>
+                                            <td> 2004 </td>
+                                            <td> 145 272</td>
+                                        </tr>
+                                        <tr>
+                                            <td> 9 </td>
+                                            <td>Just Go With It</td>
+                                            <td> <img src="img/justgo.jpg"> </td>
+                                            <td> 2 Aug, 2023 </td>
+                                            <td>
+                                                <p class="status pending ">14 min left</p>
+                                            </td>
+                                            <td> - </td>
+                                            <td> 82 </td>
+                                            <td>1h 57</td>
+                                            <td> 2011 </td>
+                                            <td> 87 652</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+            </div>
+
+            <div class="movie-list-container">
+                <h2 class="movie-list-title">Continue Waching</h2>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/land.jpg">
+                            <span class="movie-list-item-title">La La Land</span>
+                            <p class="movie-list-item-desc">23 min left</p>
+                            <button class="movie-list-item-button"><i class="fa fa-expand"></i></button>
+                            
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/mean.jpg" alt="">
+                            <span class="movie-list-item-title">Mean Girls</span>
+                            <p class="movie-list-item-desc"> 11 min left</p>
+                            <button class="movie-list-item-button"><i class="fa fa-expand"></i></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pretty.jpg" alt="">
+                            <span class="movie-list-item-title">Pretty Woman</span>
+                            <p class="movie-list-item-desc">46 min left</p>
+                            <button class="movie-list-item-button"><i class="fa fa-expand"></i></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/justgo.jpg" alt="">
+                            <span class="movie-list-item-title">Just Go With It</span>
+                            <p class="movie-list-item-desc">14 min left</p>
+                            <button class="movie-list-item-button"><i class="fa fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>Email: <a href="mailto:skorobogatuh.dara@gmail.com">nicoletiutereva@gmail.com</a></li>
+                            <li>Phone: <span>(+380) 67-196-00-24</span></li>
+                         </ul>
+                    </div>
+                  
+                    <div class="footer-caption">
+                        <p>&copy; 2024 MovieBuddy. All rights reserved.</p>
+                    </div>
+            </footer>
+                            
+                                        
+        </div>
+        </div>
+    </main>
+        
+</body>
+</html>

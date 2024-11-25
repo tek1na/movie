@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Crushed&family=Exo+2:wght@300&family=Michroma&family=Oswald:wght@200&display=swap');
+* 
+{
+  margin: 0;
+}
+
+.navbar 
+{
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.navbar-container 
+{
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  height: 100%;
+  color: #6600ff;
+  font-family: "Oswald";
+  font-size: 20px;
+}
+
+.logo-container img
+{
+  height: 80px;
+  width: 200px;
+}
+
+.profile-container 
+{
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profile-text-container 
+{
+  margin: 0 20px;
+}
+.profile-text-active
+{
+  color: #ffffff;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.profile-text-nonactive
+{
+  text-decoration: none !important;
+  color: #5a00e1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.profile-text-nonactive:hover
+{
+  color:  #ffffffb3;
+}
+.profile-picture 
+{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4d00c0;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.2s;
+}
+.profile-picture:hover
+{
+  border: 2px solid  #fff;
+}
+.toggle 
+{
+  width: 45px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  color: rgb(238, 175, 15);
+  margin: 15px 30px 15px 10px;
+}
+
+.toggle-ball 
+{
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: absolute;
+  right: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.toggle-ball:hover
+{
+  background-color:  #4d00c0;
+}
+.sidebar
+{
+  width: 65px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.left-menu-icon {
+  color: #4d00c0;
+  font-size: 20px;
+  margin-bottom: 40px;
+  transition: 0.2s;
+}
+.left-menu-icon:hover
+{
+  color: #ffffff;
+}
+.left-menu-icon.fa-shopping-cart
+{
+  color: #ffffff;
+  transition: 0.6s ease-in-out;
+}
+.left-menu-icon.fa-shopping-cart:hover
+{
+  transform: translateY(-5px);
+}
+
+
+body 
+{
+  font-family: 'Exo 2';
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+}
+
+.container 
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 30px;
+}
+
+.subscription-box 
+{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #4d00c0;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.subscription-box:hover 
+{
+  border: 2px solid #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.price 
+{
+  color: #6600ff;
+  font-size: 30px;
+  margin: 20px;
+}
+
+
+.features li 
+{
+  text-align: left;
+  margin: 10px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 25px;
+}
+
+.subscribe-button 
+{
+  background-color:  #4d00c0;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.subscribe-button:hover {
+  color: #4d00c0;
+  background-color: #fff;
+}
+footer 
+{
+  background-color: #000000;
+  color: #757575;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content 
+{
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;    
+}
+
+.footer-links 
+{
+  margin-bottom: 20px;
+}
+
+.footer-links ul 
+{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li 
+{
+  font-family: 'Exo 2';
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #757575;
+}
+.footer-links a:hover
+{
+  color: #8e81ff78;
+}
+.footer-links li span {
+  display: block;
+    
+}
+
+.footer-caption p {
+  font-family: 'Exo 2';
+  margin: 20px 0 0;
+  font-size: 14px;
+}
